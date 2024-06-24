@@ -12,7 +12,7 @@ const Navbar = () => {
     <header className="pad-x flex items-center justify-between py-6">
       <Link href={"/"} className="z-50 flex items-center gap-x-1">
         <Image src={Logo} alt="Logo" className="h-6 w-6" />
-        <h1 className="hidden text-xl font-semibold sm:block">Acme</h1>
+        <h1 className="hidden text-xl font-semibold sm:block">gem</h1>
       </Link>
 
       <nav className="hidden text-sm font-medium sm:block">

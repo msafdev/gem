@@ -70,13 +70,20 @@
     * {
       @apply border-border;
     }
+    html {
+      @apply overflow-hidden antialiased;
+    }
     body {
-      @apply bg-background text-foreground min-h-[100svh] min-w-64 flex flex-col;
+      @apply bg-background text-foreground min-h-[100svh] min-w-64 flex flex-col relative overflow-hidden;
     }
   }
 
   @layer components {
     .pad-x {
       @apply px-6 sm:px-8 md:px-10 lg:px-12
+    }
+
+    .rdp-vhidden {
+      @apply hidden;
     }
   }
