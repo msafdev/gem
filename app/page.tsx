@@ -26,7 +26,7 @@ export default function Home() {
           size="sm"
           className="gap-x-2 bg-red-600 text-white hover:bg-red-500"
         >
-          <Link href={"https://trakteer.com/msafdev"} target="_blank">
+          <Link href={"https://trakteer.com/msafdev"} target="_blank" className="flex gap-x-2 items-center">
             <Gem className="h-4 w-4" />
             Trakteer
           </Link>
