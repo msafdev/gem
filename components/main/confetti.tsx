@@ -33,6 +33,7 @@ export type ConfettiRef = Api | null;
 
 const ConfettiContext = createContext<Api>({} as Api);
 
+/* eslint-disable react/display-name */
 const Confetti = forwardRef<ConfettiRef, Props>((props, ref) => {
   const {
     options,
